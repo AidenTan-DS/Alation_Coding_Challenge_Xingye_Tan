@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Project specific - files not needed for submission
+*.pdf
+EVALUATION_CHECKLIST.md
+
+# Data files (optional - uncomment if you don't want to commit data)
+# data/raw/
+# data/cleaned/
+
+# Output files (optional - uncomment if you don't want to commit outputs)
+# outputs/
+
+# Temporary files
+*.tmp
+*.log
+*.bak
+

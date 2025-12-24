@@ -1,0 +1,11 @@
+HR AI Agent Access Information
+
+Agent URL: https://alation-agent-keao.vercel.app/
+
+Platform: OpenAI Agent Builder (platform.openai.com)
+
+Status: Live and Deployed
+
+Access: Public web interface available at the URL above
+
+For detailed implementation information, see agent_description.md
