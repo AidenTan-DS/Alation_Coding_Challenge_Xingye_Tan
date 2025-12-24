@@ -33,8 +33,7 @@ Alation_Coding_Challenge_Xingye_Tan/
 │       └── q3_most_tenured_by_department.jpg
 │
 └── agent/
-    ├── agent_description.md
-    └── agent_link.txt
+    └── agent_description.md
 ```
 
 ## Part 1: Data Preprocessing and EDA
@@ -76,17 +75,44 @@ For detailed agent implementation, see `agent/agent_description.md`.
 ## How to Run
 
 ### Prerequisites
-```bash
-pip install -r requirements.txt
-```
 
-### Run Part 1
-```bash
-jupyter notebook notebook/Part1.ipynb
-```
+1. **Install Python 3.x** (if not already installed)
 
-### Access Part 2 Agent
-Visit: https://alation-agent-keao.vercel.app/
+2. **Install required packages**:
+   ```bash
+   pip install -r requirements.txt
+   ```
+   
+   This will install: pandas, jupyter, matplotlib, seaborn
+
+### Part 1: Data Preprocessing and EDA
+
+1. **Start Jupyter Notebook**:
+   ```bash
+   jupyter notebook
+   ```
+
+2. **Open the notebook**:
+   - Navigate to `notebook/Part1.ipynb`
+   - Or run directly: `jupyter notebook notebook/Part1.ipynb`
+
+3. **Run all cells**:
+   - Execute cells sequentially (Shift + Enter)
+   - Or use menu: Cell → Run All
+
+4. **Check outputs**:
+   - Cleaned data saved to: `data/cleaned/employee_cleaned.csv`
+   - EDA visualizations displayed in notebook
+   - Visualizations also saved in: `outputs/part1_eda/`
+
+### Part 2: HR AI Agent
+
+**Access the deployed agent**:
+- **URL**: https://alation-agent-keao.vercel.app/
+- Simply open the URL in your browser and start asking questions
+
+**To recreate the agent**:
+- See detailed instructions in `agent/agent_description.md`
 
 ## Submission Artifacts
 
