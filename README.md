@@ -74,6 +74,24 @@ For detailed agent implementation, see `agent/agent_description.md`.
 
 ## How to Run
 
+### Getting Started
+
+1. **Clone or download the project**:
+   ```bash
+   # Option 1: Clone from GitHub (if available)
+   git clone <repository-url>
+   cd Alation_Coding_Challenge_Xingye_Tan
+   
+   # Option 2: Download as ZIP and extract
+   # Then navigate to the project directory
+   cd Alation_Coding_Challenge_Xingye_Tan
+   ```
+
+2. **Verify data files**:
+   - The raw data file should be located at: `data/raw/employee_raw.csv`
+   - If the file is missing, ensure you have downloaded/cloned the complete project
+   - The cleaned data will be generated when you run the notebook
+
 ### Prerequisites
 
 1. **Install Python 3.x** (if not already installed)
